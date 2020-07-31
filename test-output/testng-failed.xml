@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Hotels_COM]">
+  <test thread-count="5" name="Verizon Functional Regression Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.hotels.com.test.Hotels5StarPageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="landmark"/>
+        </methods>
+      </class> <!-- com.qa.hotels.com.test.Hotels5StarPageTest -->
+    </classes>
+  </test> <!-- Verizon Functional Regression Test(failed) -->
+</suite> <!-- Failed suite [Hotels_COM] -->
